@@ -1,14 +1,12 @@
 name: Integrate Actions
 # This workflow runs tests on push and pull request events
-
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
-
+      - main
 jobs:
   test_pull_request:
     runs-on: ubuntu-latest
